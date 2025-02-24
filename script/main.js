@@ -48,10 +48,10 @@ document.getElementById('verification').addEventListener('submit', function(e) {
 
     const isPartner = document.getElementById('isPartner').value;
 
-    // Jika jawabannya bukan 'yes', tampilkan pesan peringatan
+    // Jika jawabannya tidak 'yes', tampilkan pesan peringatan
     if (isPartner !== 'yes') {
         Swal.fire({
-            title: 'Bukan pacar Faisal!',
+            title: 'Boong katanya Suka',
             text: 'Coba lagi dari awal.',
             icon: 'warning',
         }).then(() => {
