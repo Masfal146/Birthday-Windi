@@ -27,7 +27,7 @@ document.getElementById('verificationName').addEventListener('submit', function(
     const errorMessage = document.getElementById('error-message');
 
     // Validasi nama
-    const validNames = ['syabilla', 'Syabilla', 'SYABILLA PUTRI NURTANTI'];
+    const validNames = ['windiii', 'Windiii', 'WINDI HERMALIA JUNIAR'];
 
     // Jika nama tidak valid, tampilkan pesan error
     if (!validNames.includes(nameInput)) {
@@ -51,7 +51,7 @@ document.getElementById('verification').addEventListener('submit', function(e) {
     // Jika jawabannya tidak 'yes', tampilkan pesan peringatan
     if (isPartner !== 'yes') {
         Swal.fire({
-            title: 'Boong katanya Suka',
+            title: 'Boong ga di aku ih',
             text: 'Coba lagi dari awal.',
             icon: 'warning',
         }).then(() => {
